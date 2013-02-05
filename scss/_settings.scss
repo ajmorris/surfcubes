@@ -11,17 +11,18 @@ $mobileTotalColumns: 4;
 $blockGridElements: 12; // Highest number of block grid elements, Maximum of 24 supported
 
 // Brand Colors
-$red: #703030;
-$blue: #2F343B;
-$gray: #7E827A;
-$beige: #E3CDA4;
-$salmon: #C77966;
+$lightBlue: #1CAADB;
+$blue: #1382C3;
+$darkBlue: #1072AC;
+$gray: #eee;
+$darkGray: #828282;
+$lightGray: #C6C6C6;
 
 // Colors Settings
 
 $mainColor: $blue;
-$secondaryColor: $beige;
-$alertColor: $red;
+$secondaryColor: $blue;
+$alertColor: #c60f13;
 $successColor: #5da423;
 $txtColor: #222;
 $highlightColor: #ffff99;

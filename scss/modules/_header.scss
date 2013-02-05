@@ -1,11 +1,11 @@
 .header {
-    border-top: 5px solid $blue;
+    border-top: 5px solid $lightBlue;
 }
 
 .top-nav {
-    background: $red;
+    background: $darkBlue;
     padding: 3px 20px;
-    border-bottom: 1px solid darken($salmon, 10%);
+    border-bottom: 1px solid $blue;
     ul {
         margin-bottom: 0px;
         li {
@@ -14,7 +14,7 @@
             margin-right: 10px;
 
             a {
-                color: $beige;
+                color: $gray;
             }
         }
     }
@@ -33,7 +33,7 @@
     .blog-description {
         font-size: 2.5em;
         font-family: $bodyFontFamily;
-        color: $red;
+        color: $darkBlue;
     }
 
 }
