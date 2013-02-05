@@ -1,10 +1,9 @@
 body {
-    background: url(../images/bright_squares/bright_squares.png);
-    text-shadow: 1px 1px #fff;
+    background: url(../images/pw_maze_white/pw_maze_white.png);
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
     body {
-        background: url(../images/bright_squares/bright_squares_@2X.png);       
+        background: url(../images/pw_maze_white/pw_maze_white_@2X.png);       
     }
 }
