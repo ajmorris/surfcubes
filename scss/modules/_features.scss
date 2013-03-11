@@ -1,0 +1,24 @@
+.home-image {
+    color: $blue;
+    min-height: 110px;
+    h2 {
+        font-size: 1.8em;
+        float: right;
+        width: 75%;
+    }
+
+    span {
+        margin-top: 20px;
+        font-size: 3em;
+        float: left;
+    }
+
+}
+
+.home-feature {
+    clear: both;
+
+    p {
+        font-size: 1em;
+    }
+}

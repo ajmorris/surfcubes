@@ -7113,57 +7113,62 @@ article {
   background: #eee;
 }
 
-/* line 16, ../scss/modules/_comments.scss */
+/* line 15, ../scss/modules/_comments.scss */
+.odd {
+  background: #fff;
+}
+
+/* line 20, ../scss/modules/_comments.scss */
 .commentlist,
 .comment ol, .comment ul {
   list-style: none;
 }
 
-/* line 20, ../scss/modules/_comments.scss */
+/* line 24, ../scss/modules/_comments.scss */
 .comment-input-text textarea {
   width: 80%;
 }
 
-/* line 24, ../scss/modules/_comments.scss */
+/* line 28, ../scss/modules/_comments.scss */
 .comment-list {
   margin: 0;
   padding: 15px 0 0;
 }
 
-/* line 29, ../scss/modules/_comments.scss */
+/* line 33, ../scss/modules/_comments.scss */
 .comment-list li {
   list-style: none;
   margin-bottom: 30px;
 }
 
-/* line 34, ../scss/modules/_comments.scss */
+/* line 38, ../scss/modules/_comments.scss */
 .comment-list p {
   padding: 15px 0 0;
 }
 
-/* line 38, ../scss/modules/_comments.scss */
+/* line 42, ../scss/modules/_comments.scss */
 .comment-list p.heading {
   padding-top: 0;
   font-size: 12px;
 }
 
-/* line 43, ../scss/modules/_comments.scss */
+/* line 47, ../scss/modules/_comments.scss */
 .comment-list li .commbody {
   border-top: 1px solid #f15a23;
   padding: 0 0 8px;
 }
 
-/* line 48, ../scss/modules/_comments.scss */
+/* line 52, ../scss/modules/_comments.scss */
 .comment-list ul {
   margin-bottom: 0;
 }
 
-/* line 52, ../scss/modules/_comments.scss */
+/* line 56, ../scss/modules/_comments.scss */
 .comment-list ul.children .commbody {
   padding: 0 0 10px;
 }
 
-/* line 56, ../scss/modules/_comments.scss */
+/* line 60, ../scss/modules/_comments.scss */
 .comment-author img {
   -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
@@ -7177,34 +7182,34 @@ article {
   border-radius: 50%;
 }
 
-/* line 63, ../scss/modules/_comments.scss */
+/* line 67, ../scss/modules/_comments.scss */
 .comment-author cite.fn {
   font-style: normal;
 }
 
-/* line 67, ../scss/modules/_comments.scss */
+/* line 71, ../scss/modules/_comments.scss */
 .comment-author cite.fn a {
   color: #666;
   font-weight: bold;
 }
 
-/* line 72, ../scss/modules/_comments.scss */
+/* line 76, ../scss/modules/_comments.scss */
 .comment-author cite.fn a:hover {
   color: #222;
 }
 
-/* line 76, ../scss/modules/_comments.scss */
+/* line 80, ../scss/modules/_comments.scss */
 .comment-profile-wrapper {
   text-align: center;
   width: 105px;
 }
 
-/* line 81, ../scss/modules/_comments.scss */
+/* line 85, ../scss/modules/_comments.scss */
 span.says {
   display: none;
 }
 
-/* line 85, ../scss/modules/_comments.scss */
+/* line 89, ../scss/modules/_comments.scss */
 .comment-meta {
   color: #8d8d8d;
   float: left;
@@ -7213,7 +7218,7 @@ span.says {
   margin-top: 6px;
 }
 
-/* line 93, ../scss/modules/_comments.scss */
+/* line 97, ../scss/modules/_comments.scss */
 .commleft {
   border-top: 3px solid #f15a23;
   float: left;
@@ -7221,68 +7226,68 @@ span.says {
   width: 215px;
 }
 
-/* line 100, ../scss/modules/_comments.scss */
+/* line 104, ../scss/modules/_comments.scss */
 .commentmetadata a {
   color: #6D6C6C;
   font-style: normal;
 }
 
-/* line 105, ../scss/modules/_comments.scss */
+/* line 109, ../scss/modules/_comments.scss */
 .commentmetadata a:hover {
   color: #484040;
   text-decoration: none;
 }
 
-/* line 110, ../scss/modules/_comments.scss */
+/* line 114, ../scss/modules/_comments.scss */
 .comment-gravatar {
   margin-bottom: 3px;
 }
 
-/* line 115, ../scss/modules/_comments.scss */
+/* line 119, ../scss/modules/_comments.scss */
 .comment-content-wrapper {
   float: right;
   width: 538px;
 }
 
-/* line 121, ../scss/modules/_comments.scss */
+/* line 125, ../scss/modules/_comments.scss */
 .comment-parent,
 .comment-single {
   margin-top: 15px;
 }
 
-/* line 126, ../scss/modules/_comments.scss */
+/* line 130, ../scss/modules/_comments.scss */
 .comment-list ul.children, #comments #respond ul {
   margin: 0 0 10px 15px;
   padding: 9px 0 0 35px;
   list-style: none;
 }
 
-/* line 132, ../scss/modules/_comments.scss */
+/* line 136, ../scss/modules/_comments.scss */
 .comment-list ul.children ul.children {
   margin-left: 40px;
 }
 
-/* line 136, ../scss/modules/_comments.scss */
+/* line 140, ../scss/modules/_comments.scss */
 .comment-list ul.children li {
   margin: 0;
   list-style: none;
 }
 
-/* line 141, ../scss/modules/_comments.scss */
+/* line 145, ../scss/modules/_comments.scss */
 .comment-body {
   margin: 0;
   padding: 10px 12px;
   position: relative;
 }
 
-/* line 147, ../scss/modules/_comments.scss */
+/* line 151, ../scss/modules/_comments.scss */
 .comment-body p {
   margin: 10px 42px;
   clear: both;
   margin-bottom: 0;
 }
 
-/* line 153, ../scss/modules/_comments.scss */
+/* line 157, ../scss/modules/_comments.scss */
 .comment-list li div p {
   color: #808080;
   margin-bottom: 0;
@@ -7290,27 +7295,27 @@ span.says {
   padding-right: 15px;
 }
 
-/* line 160, ../scss/modules/_comments.scss */
+/* line 164, ../scss/modules/_comments.scss */
 .comment .post-date {
   margin-top: 0;
 }
 
-/* line 164, ../scss/modules/_comments.scss */
+/* line 168, ../scss/modules/_comments.scss */
 .comment .post-date .right a {
   color: #BBB;
 }
 
-/* line 168, ../scss/modules/_comments.scss */
+/* line 172, ../scss/modules/_comments.scss */
 .comment .post-date .right a:hover {
   color: #234;
 }
 
-/* line 172, ../scss/modules/_comments.scss */
+/* line 176, ../scss/modules/_comments.scss */
 .reply {
   font-size: 11px;
 }
 
-/* line 176, ../scss/modules/_comments.scss */
+/* line 180, ../scss/modules/_comments.scss */
 .reply a {
   display: block;
   margin-right: 15px;
@@ -7318,12 +7323,12 @@ span.says {
   color: #1382c3;
 }
 
-/* line 183, ../scss/modules/_comments.scss */
+/* line 187, ../scss/modules/_comments.scss */
 .cancel-comment-reply {
   margin: 0 0 7px;
 }
 
-/* line 188, ../scss/modules/_comments.scss */
+/* line 192, ../scss/modules/_comments.scss */
 .reply a,
 .cancel-comment-reply a {
   border: none;
@@ -7331,74 +7336,74 @@ span.says {
   text-transform: uppercase;
 }
 
-/* line 195, ../scss/modules/_comments.scss */
+/* line 199, ../scss/modules/_comments.scss */
 .reply a:hover,
 .cancel-comment-reply a:hover {
   color: #333;
   text-decoration: none;
 }
 
-/* line 200, ../scss/modules/_comments.scss */
+/* line 204, ../scss/modules/_comments.scss */
 .nocomments {
   padding: 0 0 20px;
 }
 
-/* line 204, ../scss/modules/_comments.scss */
+/* line 208, ../scss/modules/_comments.scss */
 #respond li {
   list-style: none;
 }
 
-/* line 208, ../scss/modules/_comments.scss */
+/* line 212, ../scss/modules/_comments.scss */
 #respond ul {
   margin: 0;
 }
 
-/* line 212, ../scss/modules/_comments.scss */
+/* line 216, ../scss/modules/_comments.scss */
 #respond .legend {
   margin-bottom: 10px;
 }
 
-/* line 216, ../scss/modules/_comments.scss */
+/* line 220, ../scss/modules/_comments.scss */
 #comments #respond .legend {
   border-bottom: 0;
   margin-bottom: 0;
 }
 
-/* line 221, ../scss/modules/_comments.scss */
+/* line 225, ../scss/modules/_comments.scss */
 #comments #respond ul {
   padding: 10px 0 0 15px;
 }
 
-/* line 225, ../scss/modules/_comments.scss */
+/* line 229, ../scss/modules/_comments.scss */
 #comments ul.children #respond ul {
   margin-left: 30px;
   padding: 0;
 }
 
-/* line 230, ../scss/modules/_comments.scss */
+/* line 234, ../scss/modules/_comments.scss */
 #comments #respond .comment-profile-wrapper, #comments #respond .comment-arrow {
   display: none;
 }
 
-/* line 234, ../scss/modules/_comments.scss */
+/* line 238, ../scss/modules/_comments.scss */
 #comments #respond .comment-body {
   background: #FFF;
 }
 
-/* line 238, ../scss/modules/_comments.scss */
+/* line 242, ../scss/modules/_comments.scss */
 #comments #respond .comment-content-wrapper {
   float: none;
   width: 100%;
 }
 
-/* line 244, ../scss/modules/_comments.scss */
+/* line 248, ../scss/modules/_comments.scss */
 #respond #formLabels p,
 #formContent p {
   margin: 0;
   padding: 4px 20px 3px 0;
 }
 
-/* line 249, ../scss/modules/_comments.scss */
+/* line 253, ../scss/modules/_comments.scss */
 #respond label {
   color: #7e7e7e;
   float: left;
@@ -7409,7 +7414,7 @@ span.says {
   font-weight: normal;
 }
 
-/* line 260, ../scss/modules/_comments.scss */
+/* line 264, ../scss/modules/_comments.scss */
 #respond input,
 #respond textarea {
   display: inline-block;
@@ -7431,7 +7436,7 @@ span.says {
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-/* line 277, ../scss/modules/_comments.scss */
+/* line 281, ../scss/modules/_comments.scss */
 #respond input:focus,
 #respond textarea:focus {
   outline: 0;
@@ -7441,12 +7446,12 @@ span.says {
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);
 }
 
-/* line 285, ../scss/modules/_comments.scss */
+/* line 289, ../scss/modules/_comments.scss */
 #respond #formLabels input {
   width: 55%;
 }
 
-/* line 289, ../scss/modules/_comments.scss */
+/* line 293, ../scss/modules/_comments.scss */
 #respond #formLabels span {
   margin: 0 0 0 10px;
   font-size: 12px;
@@ -7454,14 +7459,14 @@ span.says {
   font-style: italic;
 }
 
-/* line 296, ../scss/modules/_comments.scss */
+/* line 300, ../scss/modules/_comments.scss */
 #respond #formContent textarea {
   width: 70%;
   resize: vertical;
   max-height: 500px;
 }
 
-/* line 303, ../scss/modules/_comments.scss */
+/* line 307, ../scss/modules/_comments.scss */
 #respond .submit,
 .widget input#searchsubmit {
   border: none;
@@ -7483,12 +7488,12 @@ span.says {
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
 }
 
-/* line 323, ../scss/modules/_comments.scss */
+/* line 327, ../scss/modules/_comments.scss */
 #respond .submit:hover {
   background-position: 0 -15px;
 }
 
-/* line 327, ../scss/modules/_comments.scss */
+/* line 331, ../scss/modules/_comments.scss */
 #respond .submit:active {
   top: 1px;
   -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.05);
@@ -7496,7 +7501,34 @@ span.says {
   box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
-/* line 334, ../scss/modules/_comments.scss */
+/* line 338, ../scss/modules/_comments.scss */
 .comment-list li #respond p {
   margin-left: 0;
+}
+
+/* line 1, ../scss/modules/_features.scss */
+.home-image {
+  color: #1382c3;
+  min-height: 110px;
+}
+/* line 4, ../scss/modules/_features.scss */
+.home-image h2 {
+  font-size: 1.8em;
+  float: right;
+  width: 75%;
+}
+/* line 10, ../scss/modules/_features.scss */
+.home-image span {
+  margin-top: 20px;
+  font-size: 3em;
+  float: left;
+}
+
+/* line 18, ../scss/modules/_features.scss */
+.home-feature {
+  clear: both;
+}
+/* line 21, ../scss/modules/_features.scss */
+.home-feature p {
+  font-size: 1em;
 }

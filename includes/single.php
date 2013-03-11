@@ -22,18 +22,6 @@
 
                             <?php comments_template( '', true ); ?>
 
-
-                            <?php if ( have_comments() ) : ?>
-                                <h4><?php printf( _n( 'One Comment', '%1$s Comments', get_comments_number() ),number_format_i18n( get_comments_number() ) );
-                        ?></h4>
-
-                            // Comment loop goes here
-
-                            <?php else: ?>
-                                <h4>No comments</h4>
-                            <?php endif; ?>
-
-
                             <!-- Stop The Loop (but note the "else:" - see next line). -->
                             <?php endwhile; else: ?>
 
