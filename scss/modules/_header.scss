@@ -12,9 +12,11 @@
             display: inline-block;
             font-size: 1.2em;
             margin-right: 10px;
-
             a {
                 color: $gray;
+                &:hover {
+                    text-decoration: underline;
+                }
             }
         }
     }
