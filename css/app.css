@@ -1858,7 +1858,7 @@ form.custom .custom.disabled {
 /* The Grid ---------------------- */
 /* line 3, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.4/scss/foundation/components/_grid.scss */
 .row {
-  width: 1000px;
+  width: 1260px;
   max-width: 100%;
   min-width: 768px;
   margin: 0 auto;
@@ -3287,7 +3287,7 @@ ul.flyout li.active a, .nav-bar li ul li.active a {
 }
 /* line 33, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.4/scss/foundation/components/modules/_topbar.scss */
 .contain-to-grid .top-bar {
-  max-width: 1000px;
+  max-width: 1260px;
   margin: 0 auto;
 }
 /* line 38, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.4/scss/foundation/components/modules/_topbar.scss */
@@ -7052,7 +7052,7 @@ body {
 /* line 30, ../scss/modules/_header.scss */
 .logo .blog-title {
   color: #1382c3;
-  margin-right: 15%;
+  margin-right: 35%;
   font-size: 4em;
 }
 /* line 35, ../scss/modules/_header.scss */
@@ -7076,8 +7076,13 @@ body {
 .content .entry p {
   font-size: 1.5em;
 }
+/* line 13, ../scss/modules/_content.scss */
+.content ul li {
+  font-size: 1.5em;
+  margin-left: 40px;
+}
 
-/* line 14, ../scss/modules/_content.scss */
+/* line 19, ../scss/modules/_content.scss */
 .entry-title {
   margin-bottom: 20px;
   color: #1382c3;
@@ -7085,12 +7090,12 @@ body {
   text-shadow: 1px 1px 1px #eeeeee;
 }
 
-/* line 21, ../scss/modules/_content.scss */
+/* line 26, ../scss/modules/_content.scss */
 article {
   margin-bottom: 40px;
 }
 
-/* line 25, ../scss/modules/_content.scss */
+/* line 30, ../scss/modules/_content.scss */
 .page-numbers {
   font-size: 1.2em;
 }
@@ -7534,5 +7539,5 @@ span.says {
 }
 /* line 21, ../scss/modules/_features.scss */
 .home-feature p {
-  font-size: 1em;
+  font-size: 1.2em;
 }
